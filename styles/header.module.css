@@ -1,0 +1,5 @@
+.main{
+    background: var(--dark-background-600);
+    height: 100px;
+    width: 100%;
+}
