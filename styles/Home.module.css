@@ -1,10 +1,14 @@
 .body {
   margin: 0;
   position: relative;
-  /* background: var(--grdient-main-transparent); */
+  /* background: var(--grdient-main-transparent);
+   */
+  background-image: url("/images/background.png");
+
   width: 100%;
   min-height: 100vh;
 }
+
 .container{
   margin: auto;
   max-width: 1366px;

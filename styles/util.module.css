@@ -1,0 +1,26 @@
+
+.row{
+    min-height: 100vh;
+    width:100%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    /* -webkit-backdrop-filter: blur(18px); */
+  background: var(--grdient-main-transparent-dark);
+  /* backdrop-filter: blur(18px); */
+  /* backdrop-filter: saturate(180%) blur(18px) ; */
+}
+.sidenav{
+    width: 25%;
+}
+.main{
+    width: 78%;
+    height: 100%;
+    /* background: var(--grdient-main); */
+    
+}
+.centerDiv{
+    display: flex;
+    justify-content: center;
+    padding: 50px 0 0 0;
+}
