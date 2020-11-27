@@ -7,12 +7,9 @@ export default function Sidenav({ active, ...props }) {
     return (
         <div {...props}>
             <div className={styles.sidenavContainer}>
-                <motion.div className={utils.centerDiv} initial={{
-                    x:0,
-                    y:0,
-                }}>
+                <div className={utils.centerDiv} >
                     <Avatar className={styles.avatarRound} src="/images/my_avatar_192x192.png" />
-                </motion.div>
+                </div>
 
                 <div>
                     <ul>
