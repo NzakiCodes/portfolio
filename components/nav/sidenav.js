@@ -11,29 +11,19 @@ export default function Sidenav({ active, ...props }) {
                     <Avatar className={styles.avatarRound} src="/images/my_avatar_192x192.png" />
                 </div>
 
-                <div>
-                    <ul>
-                        <li>
-                            <Link href="/about">
-                                <a>About</a>
-                            </Link>
-                        </li>
-                        <li>
-                            <Link href="/projects">
-                                <a>Projects</a>
-                            </Link>
-                        </li>
-                        <li>
-                            <Link href="/blog">
-                                <a>Blog</a>
-                            </Link>
-                        </li>
-                        <li>
-                            <Link href="/contact">
-                                <a>Contact</a>
-                            </Link>
-                        </li>
-                    </ul>
+                <div className={styles.sideLinks}>
+                    <Link href="/about">
+                        <a>About</a>
+                    </Link>
+                    <Link href="/projects">
+                        <a>Projects</a>
+                    </Link>
+                    <Link href="/blog">
+                        <a>Blog</a>
+                    </Link>
+                    <Link href="/contact">
+                        <a>Contact</a>
+                    </Link>
                 </div>
             </div>
         </div>

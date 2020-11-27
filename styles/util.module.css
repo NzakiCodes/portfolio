@@ -6,11 +6,11 @@
     flex-wrap: nowrap;
 }
 .sidenav {
-    width: 25%;
+    width: 20%;
 }
 
 .main {
-    width: 78%;
+    width: 80%;
     height: 100%;
     min-height: 100vh!important;
 }
