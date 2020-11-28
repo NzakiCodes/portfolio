@@ -13,16 +13,16 @@ export default function Sidenav({ active, ...props }) {
 
                 <div className={styles.sideLinks}>
                     <Link href="/about">
-                        <a>About</a>
+                        <a className={active=="about"?styles.active:""} >About</a>
                     </Link>
                     <Link href="/projects">
-                        <a>Projects</a>
+                        <a className={active=="projects"?styles.active:""}>Projects</a>
                     </Link>
                     <Link href="/blog">
-                        <a>Blog</a>
+                        <a className={active=="blog"?styles.active:""}>Blog</a>
                     </Link>
                     <Link href="/contact">
-                        <a>Contact</a>
+                        <a className={active=="contact"?styles.active:""}>Contact</a>
                     </Link>
                 </div>
             </div>
