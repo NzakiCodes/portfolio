@@ -8,21 +8,32 @@ export default function Sidenav({ active, ...props }) {
         <div {...props}>
             <div className={styles.sidenavContainer}>
                 <div className={utils.centerDiv} >
-                    <Avatar className={styles.avatarRound} src="/images/my_avatar_192x192.png" />
+                    <motion.div
+                        whileHover={{ scale: 1.2 }}
+                        whileTap={{
+                            scale: 0.8
+                        }}
+                    >
+                        <Link href="/">
+                            <a>
+                            <Avatar className={styles.avatarRound} src="/images/my_avatar_192x192.png" />
+                            </a>
+                        </Link>
+                    </motion.div>
                 </div>
 
                 <div className={styles.sideLinks}>
                     <Link href="/about">
-                        <a className={active=="about"?styles.active:""} >About</a>
+                        <a className={active == "about" ? styles.active : ""} >About</a>
                     </Link>
                     <Link href="/projects">
-                        <a className={active=="projects"?styles.active:""}>Projects</a>
+                        <a className={active == "projects" ? styles.active : ""}>Projects</a>
                     </Link>
                     <Link href="/blog">
-                        <a className={active=="blog"?styles.active:""}>Blog</a>
+                        <a className={active == "blog" ? styles.active : ""}>Blog</a>
                     </Link>
                     <Link href="/contact">
-                        <a className={active=="contact"?styles.active:""}>Contact</a>
+                        <a className={active == "contact" ? styles.active : ""}>Contact</a>
                     </Link>
                 </div>
             </div>

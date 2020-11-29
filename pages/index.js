@@ -1,13 +1,11 @@
-import Head from 'next/head'
 import Link from 'next/link'
 import Layout from '../components/layout'
+import { Title } from '../components/typography'
+
 export default function Home() {
   return (
     <Layout pageTitle="Home" navActive="home">
-      <h1>Home</h1>
-      <Link href="/about">
-        <a>About</a>
-      </Link>
+      <Title>Home</Title>
     </Layout>
   )
 }
