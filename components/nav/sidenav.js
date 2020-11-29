@@ -4,19 +4,25 @@ import Avatar from '../avatar';
 import { motion } from 'framer-motion'
 import Link from 'next/link';
 export default function Sidenav({ active, ...props }) {
+    const avatarStyle = `${styles.avatarRound} ${active=="home"?styles.avatarActive:""}`;
     return (
         <div {...props}>
             <div className={styles.sidenavContainer}>
                 <div className={utils.centerDiv} >
                     <motion.div
-                        whileHover={{ scale: 1.2 }}
-                        whileTap={{
-                            scale: 0.8
+                        whileHover={{ 
+                            scale:1.2
+                         }}
+                         whileTap={{
+                            scale: 1.3
+                        }}
+                        transition={{
+                            duration: 1
                         }}
                     >
                         <Link href="/">
                             <a>
-                            <Avatar className={`${styles.avatarRound} ${active=="home"?styles.avatarActive:""}`} src="/images/my_avatar_192x192.png" />
+                                <Avatar className={avatarStyle} src="/images/my_avatar_192x192.png" />
                             </a>
                         </Link>
                     </motion.div>

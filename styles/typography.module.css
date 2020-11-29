@@ -1,14 +1,10 @@
-/* .title{
-    font-size: 43.2pt;
-} */
 .title {
     display: inline-block;
     font-size: 26px;
-    font-family: "ProximaNova", sans-serif;
+    font-weight: normal;
     color: rgb(255, 255, 255);
     line-height: 1.2;
     text-align: left;
-    /* border-bottom: 2px solid #ff3399; */
   }
   .titleBorder{
       display: block;
