@@ -14,6 +14,9 @@
   -5px -5px 7px #0808083d;
   background-color: #2b1631;
 }
+.avatarActive{
+  border-color:#ff3399;
+}
 
 .sideLinks {
   display: flex;

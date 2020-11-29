@@ -2,14 +2,17 @@
     font-size: 43.2pt;
 } */
 .title {
-    display: inline-flex;
+    display: inline-block;
     font-size: 26px;
     font-family: "ProximaNova", sans-serif;
     color: rgb(255, 255, 255);
     line-height: 1.2;
     text-align: left;
-    border-bottom: 2px solid #ff3399;
+    /* border-bottom: 2px solid #ff3399; */
   }
   .titleBorder{
-      
+      display: block;
+      width: 100%;
+      height: 5px;
+      background-color: #ff3399;
   }

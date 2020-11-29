@@ -16,7 +16,7 @@ export default function Sidenav({ active, ...props }) {
                     >
                         <Link href="/">
                             <a>
-                            <Avatar className={styles.avatarRound} src="/images/my_avatar_192x192.png" />
+                            <Avatar className={`${styles.avatarRound} ${active=="home"?styles.avatarActive:""}`} src="/images/my_avatar_192x192.png" />
                             </a>
                         </Link>
                     </motion.div>
