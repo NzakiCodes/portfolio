@@ -23,22 +23,34 @@ export default function Home() {
 
                     }}
 
-                    transition={{ duration: 0.8, ease: "easeOut" }}
+                    transition={{ duration: 0.3, ease: "easeOut" }}
                 >
                     Nzaki <span>Michael</span>
                     <span className={util.pinkDot}></span>
                 </motion.h1>
                 <motion.h3 initial={{
-                        opacity: 0,
-                        letterSpacing: '-20px'
-                    }}
+                    opacity: 0,
+                }}
                     animate={{
                         opacity: 1,
-                        letterSpacing: '5px'
 
                     }}
 
-                    transition={{ duration: 0.8, ease: "easeOut" }}>FullStack Web Developer</motion.h3>
+                    transition={{
+                        delay:0.4,
+                        duration: 0.3,
+                        ease: "easeOut"
+                    }}
+                    >
+                    FullStack Web Developer
+                    </motion.h3>
+                    <p>
+                        Currently building product for a StartUp, 
+                        Teaching Web Development through a free mentoring program.
+                        Also contributing to Opensource projects.
+                        Inlove with <span>React.js</span> and <span>Next.js</span>, learning <span>TailwindCSS</span>.
+                        Read and Blog on <a href="https://hashnode.com" target="_blank">Hashnode</a>.
+                    </p>
             </div>
         </Layout>
     )

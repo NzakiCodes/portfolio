@@ -35,7 +35,8 @@
 }
 /* For About Page */
 .About__header{
-
+    display: block;
+    width: 60%;
 }
 .About__header h1{
     margin: 0;
@@ -59,6 +60,14 @@
     color: #ff70b8;
     letter-spacing: 5px;
     transition: 0.7s;
+}
+.About__header p{
+    font-size: 26px;
+    color: #e7d8d8d0;
+}
+.About__header p a,
+.About__header p span{
+    color: #ff70b8; 
 }
 .pinkDot{
     display: inline-block;
