@@ -19,13 +19,13 @@ export default function Home() {
                         opacity: 1,
                         x: 0,
                         y: 0,
-                        letterSpacing: '5px'
+                        letterSpacing: '-6px'
 
                     }}
 
                     transition={{ duration: 0.3, ease: "easeOut" }}
                 >
-                    Nzaki <span>Michael</span>
+                    Ekikere-Abasi <span>Michael</span>
                     <span className={util.pinkDot}></span>
                 </motion.h1>
                 <motion.h3 initial={{
@@ -37,20 +37,35 @@ export default function Home() {
                     }}
 
                     transition={{
-                        delay:0.4,
+                        delay: 0.4,
                         duration: 0.3,
                         ease: "easeOut"
                     }}
-                    >
-                    FullStack Web Developer
+                >
+                    {/* FullStack  */}
+                    Web Developer
                     </motion.h3>
-                    <p>
-                        Currently building product for a StartUp, 
-                        Teaching Web Development through a free mentoring program.
-                        Also contributing to Opensource projects.
-                        Inlove with <span>React.js</span> and <span>Next.js</span>, learning <span>TailwindCSS</span>.
+                <motion.p
+                    initial={{
+                        opacity: 0,
+                    }}
+                    animate={{
+                        opacity: 1,
+
+                    }}
+
+                    transition={{
+                        delay: 0.8,
+                        duration: 0.6,
+                    }}>
+                        
+                    {/* Teaching Web Development through a free mentoring program. */}
+                    Currently building product for a StartUp,
+                    Also contributing to Opensource projects.
+                <br />
+                    Inlove with <span>React.js</span> and <span>Next.js</span>, learning <span>TailwindCSS</span>.
                         Read and Blog on <a href="https://hashnode.com" target="_blank">Hashnode</a>.
-                    </p>
+                </motion.p>
             </div>
         </Layout>
     )

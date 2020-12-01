@@ -1,19 +1,22 @@
 .row {
-    min-height: 100vh!important;
+    min-height: 100vh !important;
     width: 100%;
     display: flex;
     flex-direction: row;
     flex-wrap: nowrap;
 }
+
 .sidenav {
     width: 20%;
+
 }
 
 .main {
     width: 80%;
     height: 100%;
-    min-height: 100vh!important;
+    min-height: 100vh !important;
     padding: 20px 10px 10px 100px;
+
 }
 
 .centerDiv {
@@ -29,31 +32,37 @@
 }
 
 .left_side,
-.row{
+.row {
     background-color: rgba(10, 17, 42, 0.702);
 
 }
+
 /* For About Page */
-.About__header{
+.About__header {
     display: block;
-    width: 60%;
+    width: 80%;
+    margin: 35px 0;
 }
-.About__header h1{
+
+.About__header h1 {
     margin: 0;
     padding: 0;
-    font-size: 58px!important;
+    font-size: 58px !important;
     font-variant-ligatures: normal;
     font-stretch: extra-expanded;
     font-weight: 500;
     /* letter-spacing: 1px; */
     transition: 0.7s;
 }
-.About__header h1 span{
-    font-weight: lighter!important;
+
+.About__header h1 span {
+    font-weight: lighter !important;
+
 }
-.About__header h3{
+
+.About__header h3 {
     margin: 0;
-    font-size: 29px!important;
+    font-size: 29px !important;
     font-variant-ligatures: normal;
     font-stretch: extra-expanded;
     font-weight: normal;
@@ -61,20 +70,53 @@
     letter-spacing: 5px;
     transition: 0.7s;
 }
-.About__header p{
+
+.About__header p {
+    display: inline-block;
+    max-width: 500px;
     font-size: 26px;
     color: #e7d8d8d0;
+    font-family: "Proxima Nova", sans-serif;
+    font-weight: lighter;
+    /* text-align: justify; */
 }
+
 .About__header p a,
-.About__header p span{
-    color: #ff70b8; 
+.About__header p span {
+    color: #ff70b8;
 }
-.pinkDot{
+
+.pinkDot {
     display: inline-block;
-    padding:1px;
+    padding: 1px;
     margin: 0 3px;
-    width: 14px!important;
-    height: 14px!important;
+    width: 14px !important;
+    height: 14px !important;
     border-radius: 50%;
     background-color: #ff3399;
+}
+
+@media only screen and (max-width: 768px) {
+    .row {
+        position: relative;
+    }
+
+    .main {
+        width: 100%;
+        padding: 20px 10px 10px 30px;
+    
+    }
+    .sidenav {
+        width: 400px;
+        position: absolute;
+        background-image: url("/images/glassy-effect-clicp.png");
+        display: none;
+    }
+    .About__header {
+        display: block;
+        width: 100%;
+    }
+    .About__header h1 {
+        font-size: 48px!important;
+    }
 }
