@@ -28,6 +28,7 @@
 .right_side,
 .main {
     background-color: rgba(11, 17, 36, 0.6);
+    overflow: auto;
 
 }
 
@@ -41,7 +42,7 @@
 .About__content {
     position: relative;
     /* min-height: 100vh; */
-    overflow: hidden;
+    overflow: auto;
 }
 
 .About__header {
@@ -124,7 +125,7 @@
 }
 
 .About__previousClients {
-    padding: 60px 0;
+    padding: 10px 0;
 }
 
 .About__watermarkImage {

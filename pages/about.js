@@ -2,6 +2,7 @@ import Layout from '../components/layout';
 import { Title } from '../components/typography';
 import util from '../styles/util.module.css';
 import { motion } from 'framer-motion';
+import Icon from '../components/icons'
 
 export default function Home() {
     return (
@@ -72,7 +73,7 @@ export default function Home() {
                         <button>Know More</button>
                     </div>
                     <div className={util.About__previousClients}>
-                        
+                        <Icon name="google" type="brand"/>
                     </div>
                 </div>
                 <div className={util.About__watermarkImage}>

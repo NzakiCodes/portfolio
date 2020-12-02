@@ -9,6 +9,8 @@ export default function Layout({ children, pageTitle, navActive }) {
             <Head>
                 <title>{pageTitle} | NzakiCodes</title>
                 <link rel="icon" href="/favicon.ico" />
+                <link rel="stylesheet" href="/font-awesome/css/all.min.css" />
+                
             </Head>
             <div className={utils.row}>
                 <div className={utils.sidenav}>
