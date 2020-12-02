@@ -73,7 +73,7 @@ export default function Home() {
                         <button>Know More</button>
                     </div>
                     <div className={util.About__previousClients}>
-                        <Icon name="google" type="brand"/>
+                        <Icon style={{fontSize:"60px!important"}}  name="google" type="brand"/>
                     </div>
                 </div>
                 <div className={util.About__watermarkImage}>
