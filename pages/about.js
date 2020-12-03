@@ -45,7 +45,7 @@ export default function Home() {
                         }}
                     >
                         {/* FullStack  */}
-                    Poet,Web Developer
+                    Poet🎉,Web Developer
                     </motion.h3>
                     <motion.p
                         initial={{
@@ -65,7 +65,7 @@ export default function Home() {
                     Currently building product for a StartUp,
                     Also contributing to Opensource projects.
                 <br />
-                    Inlove with <span>React.js</span> and <span>Next.js</span>, learning <span>TailwindCSS</span>.
+                    Inlove with, <a href="https://reactjs.org/" target="_blank">React.js</a>, <a href="https://graphql.org/" target="_blank">GraphQL</a> and <a href="https://nextjs.org/" target="_blank">Next.js</a>, learning <a href="https://tailwindcss.com/" target="_blank">TailwindCSS</a>.
                         Read and Blog on <a href="https://hashnode.com" target="_blank">Hashnode</a>.
                 </motion.p>
                     <div className={util.About__callToActionButtons}>
@@ -73,12 +73,25 @@ export default function Home() {
                         <button>Know More</button>
                     </div>
                     <div className={util.About__previousClients}>
+                        {/* <Icon style={{fontSize:"60px!important"}}  name="google" type="brand"/>
                         <Icon style={{fontSize:"60px!important"}}  name="google" type="brand"/>
+                        <Icon style={{fontSize:"60px!important"}}  name="google" type="brand"/> */}
                     </div>
                 </div>
-                <div className={util.About__watermarkImage}>
+                <motion.div className={util.About__watermarkImage} initial={{
+                            opacity: 0,
+                        }}
+                        animate={{
+                            opacity: 0.3,
+
+                        }}
+
+                        transition={{
+                            delay: 0.8,
+                            duration: 0.6,
+                        }}>
                     <img src="/images/profile_tranparent.png" alt="Ekikere-Abasi Michael Ekere" />
-                </div>
+                </motion.div>
             </div>
         </Layout>
     )

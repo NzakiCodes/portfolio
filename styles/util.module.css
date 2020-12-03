@@ -154,7 +154,9 @@
     border-radius: 50%;
     background-color: #ff3399;
 }
-
+.container{
+    padding: 10px 50px;
+}
 @media only screen and (max-width: 768px) {
     .row {
         position: relative;

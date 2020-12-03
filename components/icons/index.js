@@ -1,4 +1,4 @@
-export default function Icon({ type,name, size, ...props }) {
+export default function Icon({ type, name, size, link, ...props }) {
     var fontSize;
     switch (size) {
         case "big":
@@ -29,7 +29,11 @@ export default function Icon({ type,name, size, ...props }) {
             fontType = "fa"
             break;
     }
+
     return (
-        <i {...props} className={`${fontType} fa-${name}`} style={{ fontSize }}></i>
+        link ?
+            <a href={link} target="_blank"><i {...props} className={`${fontType} fa-${name}`} style={{ fontSize }} /> </a>
+            :
+            <i {...props} className={`${fontType} fa-${name}`} style={{ fontSize }} />
     )
 }
