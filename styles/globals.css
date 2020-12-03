@@ -6,7 +6,7 @@
   --grdient-main: linear-gradient(145deg, #72f, #c1b);
 }
 ::selection{
-  background-color: #c1b;
+  background-color: #ff3399;
 }
 html,
 body {

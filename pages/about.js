@@ -61,35 +61,37 @@ export default function Home() {
                             duration: 0.6,
                         }}>
 
-                        {/* Teaching Web Development through a free mentoring program. */}
-                    Currently building product for a StartUp,
-                    Also contributing to Opensource projects.
-                <br />
-                    Inlove with, <a href="https://reactjs.org/" target="_blank">React.js</a>, <a href="https://graphql.org/" target="_blank">GraphQL</a> and <a href="https://nextjs.org/" target="_blank">Next.js</a>, learning <a href="https://tailwindcss.com/" target="_blank">TailwindCSS</a>.
+
+                        Currently building Products for Startups,
+                        Love contributing to Opensource projects.
+                        CTO and Mentor on Web Developers <a href="https://facebook.com/TechSkillsHack">@TechSkillsHack</a>.
+                        <br />
+                        Inlove with, <a href="https://reactjs.org/" target="_blank">React.js</a>, <a href="https://graphql.org/" target="_blank">GraphQL</a> and <a href="https://nextjs.org/" target="_blank">Next.js</a>, learning <a href="https://tailwindcss.com/" target="_blank">TailwindCSS</a>.
                         Read and Blog on <a href="https://hashnode.com" target="_blank">Hashnode</a>.
-                </motion.p>
+                    </motion.p>
                     <div className={util.About__callToActionButtons}>
                         <button>Hire Me</button>
                         <button>Know More</button>
                     </div>
                     <div className={util.About__previousClients}>
-                        {/* <Icon style={{fontSize:"60px!important"}}  name="google" type="brand"/>
-                        <Icon style={{fontSize:"60px!important"}}  name="google" type="brand"/>
-                        <Icon style={{fontSize:"60px!important"}}  name="google" type="brand"/> */}
+                        <span>Previous<br /> Client(s) </span>
+                        <div className={util.About__previousClients_images}>
+                            <img src="/images/clients/feyrep.png" alt="FEYReP's logo" />
+                        </div>
                     </div>
                 </div>
                 <motion.div className={util.About__watermarkImage} initial={{
-                            opacity: 0,
-                        }}
-                        animate={{
-                            opacity: 0.3,
+                    opacity: 0,
+                }}
+                    animate={{
+                        opacity: 0.3,
 
-                        }}
+                    }}
 
-                        transition={{
-                            delay: 0.8,
-                            duration: 0.6,
-                        }}>
+                    transition={{
+                        delay: 0.8,
+                        duration: 0.6,
+                    }}>
                     <img src="/images/profile_tranparent.png" alt="Ekikere-Abasi Michael Ekere" />
                 </motion.div>
             </div>
