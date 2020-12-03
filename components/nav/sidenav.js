@@ -50,6 +50,7 @@ export default function Sidenav({ active, ...props }) {
                     <Icon size="small" link="https://twitter.com/NzakiCodes" name="twitter" type="brand" />
                     <Icon size="small" link="http://instagram.com/nzakicodes" name="instagram" type="brand" />
                     <Icon size="small" link="https://facebook.com/NzakiCodes" name="facebook" type="brand" />
+                    <Icon size="small" link="https://linkedin.com/in/ekikereabasi-ekere" name="linkedin" type="brand" />
                 </div>
             </div>
         </div>

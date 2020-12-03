@@ -45,7 +45,7 @@ export default function Home() {
                         }}
                     >
                         {/* FullStack  */}
-                    Poet🎉,Web Developer
+                    📝Poet, 💻Web Developer
                     </motion.h3>
                     <motion.p
                         initial={{

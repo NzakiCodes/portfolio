@@ -80,7 +80,9 @@
     letter-spacing: 5px;
     transition: 0.7s;
 }
-
+.About__header h3::selection {
+    color: #ffffff;
+}
 .About__header p {
     display: inline-block;
     max-width: 500px;
@@ -155,7 +157,9 @@
     background-color: #ff3399;
 }
 .container{
-    padding: 10px 50px;
+    max-width: 200px;
+    /* padding: 10px 50px; */
+    margin: auto;
 }
 @media only screen and (max-width: 768px) {
     .row {
