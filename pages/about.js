@@ -12,16 +12,12 @@ export default function Home() {
                 <div className={util.About__header}>
                     <motion.h1
                         initial={{
-                            opacity: 0,
-                            x: -30,
+                            x: -1030,
                             y: -30,
-                            letterSpacing: '-20px'
                         }}
                         animate={{
-                            opacity: 1,
                             x: 0,
                             y: 0,
-                            letterSpacing: '-6px'
 
                         }}
 
@@ -58,7 +54,7 @@ export default function Home() {
 
                         transition={{
                             delay: 0.8,
-                            duration: 0.6,
+                            duration: 0.3,
                         }}>
 
 
@@ -90,7 +86,7 @@ export default function Home() {
 
                     transition={{
                         delay: 0.8,
-                        duration: 0.6,
+                        duration: 0.3,
                     }}>
                     <img src="/images/profile_tranparent.png" alt="Ekikere-Abasi Michael Ekere" />
                 </motion.div>
