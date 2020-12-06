@@ -2,13 +2,16 @@
     box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
     transition: 0.3s;
     width: 100%;
-    background-color: #fff;
+    /* background-image: url(/images/glassy-effect-clicp.png); */
+    /* background-color: #0b1023; */
+    /* background-color: #ffffff; */
     /* max-width: 300px;
     max-height: 300px; */
     /* overflow: hidden; */
     
   }
   .card img{
+      height: 100%;
     /* max-width: 280px; */
     width: 100%;
   }

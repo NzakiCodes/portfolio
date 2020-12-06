@@ -115,6 +115,11 @@
     font-weight: lighter;
     color: #ffffff;
     cursor: pointer;
+    transition:0.3s;
+}
+.About__callToActionButtons button:hover{
+    transform: scale(1.1);
+    transition:0.3s;
 }
 
 .About__callToActionButtons button:first-child {
@@ -187,8 +192,13 @@
 .flexRow>div{
     width: 30%;
     margin: 10px;
+    transition: 0.3s;
+    cursor: pointer;
 }
-
+.flexRow>div:hover{
+    transform: scale(1.1);
+    transition: 0.3s;
+}
 
 @media only screen and (max-width: 768px) {
     .row {

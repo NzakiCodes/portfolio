@@ -40,3 +40,4 @@ yarn-error.log*
 fira_code.css
 
 /public/css
+/css

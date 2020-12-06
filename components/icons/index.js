@@ -32,7 +32,9 @@ export default function Icon({ type, name, size, link, ...props }) {
 
     return (
         link ?
-            <a href={link} target="_blank" rel="noopener"><i {...props} className={`${fontType} fa-${name}`} style={{ fontSize }} /> </a>
+            <a href={link} target="_blank" rel="noopener">
+                <i {...props} className={`${fontType} fa-${name}`} style={{ fontSize }} />
+            </a>
             :
             <i {...props} className={`${fontType} fa-${name}`} style={{ fontSize }} />
     )
