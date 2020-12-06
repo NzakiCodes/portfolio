@@ -38,3 +38,5 @@ yarn-error.log*
 /styles/woff2
 /styles/fira_code.css
 fira_code.css
+
+/public/css
