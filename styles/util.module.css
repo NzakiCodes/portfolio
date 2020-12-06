@@ -175,6 +175,21 @@
     /* padding: 10px 50px; */
     margin: 100px auto;
 }
+
+.flex{
+    display: flex;
+}
+.flexRow{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+.flexRow>div{
+    width: 30%;
+    margin: 10px;
+}
+
+
 @media only screen and (max-width: 768px) {
     .row {
         position: relative;
@@ -185,7 +200,14 @@
         padding: 20px 10px 10px 30px;
 
     }
-
+    .flexRow{
+        flex-direction: column;
+        flex-wrap: wrap;
+    }
+    .flexRow>div{
+        width: 90%;
+        margin: 10px ;
+    }
     .sidenav {
         width: 400px;
         position: absolute;
