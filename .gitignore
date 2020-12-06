@@ -34,3 +34,7 @@ yarn-error.log*
 .vercel
 
 #fontAwesome
+/styles/woff
+/styles/woff2
+/styles/fira_code.css
+fira_code.css

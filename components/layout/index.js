@@ -22,7 +22,7 @@ export default function Layout({ children, pageTitle, navActive }) {
                 <meta name="viewport" content="width=device-width, initial-scale=1" />
                 <meta name="og:title" content={`${pageTitle} | Ekikere-abasi Michael Ekere`} />
                 <meta name="twitter:card" content="summary_large_image" />
-                <link rel="stylesheet" href="/font-awesome/css/all.min.css" />
+                <link async rel="stylesheet" href="/font-awesome/css/all.min.css" />
 
             </Head>
             <div className={utils.row}>
