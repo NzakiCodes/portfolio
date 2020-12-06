@@ -60,10 +60,10 @@ export default function Home() {
 
                         Currently building Products for Startups,
                         Love contributing to Opensource projects.
-                        CTO and Mentor on Web Designing <a href="https://facebook.com/TechSkillsHack">@TechSkillsHack</a>.
+                        CTO and Mentor on Web Designing <a href="https://facebook.com/TechSkillsHack" rel="noopener"  target="_blank">@TechSkillsHack</a>.
                         <br />
-                        Inlove with, <a href="https://reactjs.org/" target="_blank">React.js</a>, <a href="https://graphql.org/" target="_blank">GraphQL</a> and <a href="https://nextjs.org/" target="_blank">Next.js</a>, learning <a href="https://tailwindcss.com/" target="_blank">TailwindCSS</a>.
-                        Read and Blog on <a href="https://hashnode.com" target="_blank">Hashnode</a>.
+                        Inlove with, <a href="https://reactjs.org/" rel="noopener" target="_blank">React.js</a>, <a href="https://graphql.org/" target="_blank">GraphQL</a> and <a href="https://nextjs.org/" target="_blank">Next.js</a>, learning <a href="https://tailwindcss.com/" target="_blank">TailwindCSS</a>.
+                        Read and Blog on <a href="https://hashnode.com" rel="noopener" target="_blank">Hashnode</a>.
                     </motion.p>
                     <motion.div initial={{
                             opacity: 0,
