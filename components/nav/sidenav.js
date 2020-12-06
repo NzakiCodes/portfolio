@@ -23,16 +23,16 @@ export default function Sidenav({ active, ...props }) {
                             duration: 1
                         }}
                     >
-                        <Link href="/">
-                            <a>
+                        {/* <Link href="/">
+                            <a> */}
                                 <Avatar className={avatarStyle} src="/images/my_avatar_192x192.png" />
-                            </a>
-                        </Link>
+                            {/* </a>
+                        </Link> */}
                     </motion.div>
                 </div>
 
                 <div className={styles.sideLinks}>
-                    <Link href="/about">
+                    <Link href="/">
                         <a className={active == "about" ? styles.active : ""} >About</a>
                     </Link>
                     <Link href="/projects">
