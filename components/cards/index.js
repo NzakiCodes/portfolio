@@ -7,10 +7,10 @@ export const ImageCard = ({ image }) => {
         </div>
     )
 }
-export const PostCard = ({ post:{title, coverImage:imageSrc, title:imageAlt, link} }) => (
+export const PostCard = ({ post:{title, coverImage:imageSrc, title:imageAlt, slug},url }) => (
     <div className={styles.card}>
-        {console.log(title)}
-        <a href={link}>
+       
+        <a href={`https://${url}/${slug}`}>
             <img src={imageSrc} alt={imageAlt} />
             {/* <h4>
                 {title}

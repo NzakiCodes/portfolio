@@ -3,6 +3,7 @@ import { PostCard } from "../components/cards";
 import styles from '../styles/util.module.css';
 const BLOG_POST = gql`  query{
     user(username:"NzakiCodes"){
+    publicationDomain
       publication{
         posts{
           _id
@@ -17,15 +18,13 @@ const BLOG_POST = gql`  query{
 
 const BlogPosts = () => {
     const { loading, data, error } = useQuery(BLOG_POST);
-    // loading && ;
-    // error && ;
-
     return (
         <div className={styles.flexRow}>
             {
                 loading ? <h1>Loading...</h1> : (error ? <h1>Error!!!</h1> :
                     data.user.publication.posts.map((post) => (
-                        <PostCard key={post._id} post={post} />
+
+                        <PostCard key={post._id} post={post} url={data.user.publicationDomain} />
                     )))
             }
         </div>
