@@ -41,9 +41,9 @@ export default function Sidenav({ active, ...props }) {
                     <Link href="/blog">
                         <a className={active == "blog" ? styles.active : ""}>Blog</a>
                     </Link>
-                    <Link href="/contact">
+                    {/* <Link href="/contact">
                         <a className={active == "contact" ? styles.active : ""}>Contact</a>
-                    </Link>
+                    </Link> */}
                 </div>
                 <div className={`${styles.socialLinks} ${utils.container}`}>
                     <Icon size="small" link="https://github.com/NzakiCodes" name="github" type="brand" />
