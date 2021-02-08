@@ -40,10 +40,6 @@ export default function Projects() {
     },
     {
       id: 9,
-      src: "/images/projects/breakingbad.png"
-    },
-    {
-      id: 10,
       src: "/images/projects/book-store.png"
     }
   ];
