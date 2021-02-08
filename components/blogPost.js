@@ -44,7 +44,7 @@ const BlogPosts = () => {
             {
                 loading ? <h1>Loading...</h1> : (error ? <h1>Error!!!</h1> :
                     data.user.publication.posts.map((post) => (
-                        <motion.div className="item" variants={item} key={post._id} >
+                        <motion.div onHover={{scale:1   }} variants={item} key={post._id} >
                             <PostCard post={post} url={data.user.publicationDomain} />
                         </motion.div>
                     )))

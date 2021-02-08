@@ -1,4 +1,13 @@
-@import url('https://fonts.googleapis.com/css2?family=Fira+Code:wght@400;700&display=swap');
+
+@font-face {
+  font-family: 'Product Sans Regular';
+  font-style: normal;
+  /* font-weight: lighter; */
+  font-display: block;
+  src: url("./product-sans/Product\ Sans\ Regular.ttf") format("truetype")
+}
+
+
 
 :root{
   --dark-background-500: #1c1c1c;
@@ -14,7 +23,7 @@ html,
 body {
   padding: 0;
   margin: 0;
-  font-family: 'Fira Code', sans-serif!important;
+  font-family: 'Product Sans Regular', sans-serif!important;
   /* background-color: var(--dark-background-500);  */
   /* background-image: url("/images"); */
   /* background-image: url("/images/bg.png"); */

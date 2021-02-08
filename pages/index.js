@@ -59,15 +59,15 @@ export default function Home() {
 
 
                         Currently building Products for Startups,
-                        Love contributing to Opensource projects.
-                        CTO and Mentor on Web Designing <a href="https://facebook.com/TechSkillsHack" rel="noopener"  target="_blank">@TechSkillsHack</a>.
+                        Love contributing to Opensource projects. <br />
+                        Mentor on Web Designing <a href="https://facebook.com/TechSkillsHack" rel="noopener" target="_blank">@TechSkillsHack</a>.
                         <br />
                         Inlove with, <a href="https://reactjs.org/" rel="noopener" target="_blank">React.js</a>, <a href="https://graphql.org/" target="_blank">GraphQL</a> and <a href="https://nextjs.org/" target="_blank">Next.js</a>, learning <a href="https://tailwindcss.com/" target="_blank">TailwindCSS</a>.
                         Read and Blog on <a href="https://hashnode.com" rel="noopener" target="_blank">Hashnode</a>.
                     </motion.p>
                     <motion.div initial={{
-                            opacity: 0,
-                        }}
+                        opacity: 0,
+                    }}
                         animate={{
                             opacity: 1,
 
@@ -78,22 +78,31 @@ export default function Home() {
                             duration: 0.3,
                         }}>
                         <div className={util.About__callToActionButtons}>
-                            <button>Hire Me</button>
-                            <button>Know More</button>
+                            <a target="_blank" href="mailto:ekisnzaki@gmail.com">
+                                <button>Hire Me</button>
+                            </a>
+                            <a target="_blank" href="/Ekikere-abasi Ekere.pdf">
+                                <button>Know More</button>
+                            </a>
                         </div>
                         <div className={util.About__previousClients}>
                             <span>Previous<br /> Client(s) </span>
                             <div className={util.About__previousClients_images}>
                                 <img src="/images/clients/feyrep.png" alt="FEYReP's logo" />
                             </div>
+                            <div className={util.About__previousClients_images}>
+                                <img style={{ width: 95, height: 42, margin: "auto", padding: 5 }} src="/images/clients/TedalaMarket_Approved_logo_Transparent_128x.webp" alt="TedalaMarket's logo" />
+                            </div>
                         </div>
                     </motion.div>
                 </div>
-                <motion.div className={util.About__watermarkImage} initial={{
-                    opacity: 0,
-                }}
+                <motion.div
+                    className={util.About__watermarkImage}
+                    initial={{
+                        opacity: 0,
+                    }}
                     animate={{
-                        opacity: 0.3,
+                        opacity: 0.1,
 
                     }}
 

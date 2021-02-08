@@ -27,14 +27,14 @@
 
 .right_side,
 .main {
-    background-color: rgba(11, 16, 35, 0.6);
+    background-color: rgba(0, 0, 0, 0.39);
     overflow: auto;
 
 }
 
 .left_side,
 .row {
-    background-color: rgba(10, 17, 42, 0.702);
+    background-color: rgba(0, 0, 0, 0.897);
 
 }
 
@@ -86,10 +86,12 @@
 .About__header p {
     display: inline-block;
     max-width: 500px;
-    font-size: 25px;
-    color: #e7d8d8e8;
+    font-size: 23px;
+    color: #ffffff;
+    /* font-family: "Product Sans Regular", sans-serif; */
     font-family: "Proxima Nova", sans-serif;
-    font-weight: 300;
+    font-weight: lighter;
+    /* font-weight: 300; */
     /* text-align: justify; */
 }
 
@@ -97,9 +99,18 @@
 .About__header p span {
     /* color: #ff70b8;*/
     /* Before */
-    color: #6699ff;
-    /* After */
+    /* color: #ff70b8; */
+    text-decoration-style: dotted;
+    text-decoration: underline;
+    text-decoration-color: #ff70b8;
+    padding: 4px 3px;
 
+    /* After */
+    transition: 0.3s;
+}
+.About__header p a:hover,
+.About__header p span:hover{
+    text-decoration-color: #ffffff;
 }
 
 .About__callToActionButtons {
@@ -122,6 +133,9 @@
     transition:0.3s;
 }
 
+.About__callToActionButtons a:first-child button {
+    background: linear-gradient(180deg, #f08, rgba(240, 26, 255, 0.774));
+}
 .About__callToActionButtons button:first-child {
     background-color: #ff3399;
 }
