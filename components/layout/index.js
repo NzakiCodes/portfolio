@@ -23,6 +23,7 @@ export default function Layout({ children, pageTitle, navActive }) {
                 <meta name="og:title" content={`${pageTitle} | Ekikere-abasi Michael Ekere`} />
                 <meta name="twitter:card" content="summary_large_image" />
                 <link async rel="stylesheet" href="/font-awesome/css/all.min.css" />
+                <script data-ad-client="ca-pub-5437248160093166" async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
 
             </Head>
             <div className={utils.row}>
