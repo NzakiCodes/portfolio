@@ -24,12 +24,6 @@ export default function Layout({ children, pageTitle, navActive }) {
                 <meta name="twitter:card" content="summary_large_image" />
                 <link async rel="stylesheet" href="/font-awesome/css/all.min.css" />
                 <script data-ad-client="ca-pub-5437248160093166" async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
-<script type="text/javascript" src="https://cdn.weglot.com/weglot.min.js"></script>
-<script>
-    Weglot.initialize({
-        api_key: 'wg_b6ed1c09228cfa9ae132877bab81d9513'
-    });
-</script>
             </Head>
             <div className={utils.row}>
                 <div className={utils.sidenav}>
